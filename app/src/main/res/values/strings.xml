@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">E-Academic Assistant</string>
+    <string name="e_academic">E - Academic</string>
+    <string name="assistant">Assistant</string>
+    <string name="logo">logo</string>
+    <string name="the_complete_academic_assistant">The complete academic assistant</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="first_user">First User</string>
+    <string name="login_now">Login Now</string>
+    <string name="please_login_to_continue">Please login to continue</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="are_you_first_user_tap_here">First login ? <b><u>Tap Here</u></b></string>
+    <string name="signup_now">SignUp Now</string>
+    <string name="please_signup_to_continue">Please signup to continue</string>
+    <string name="email_address">Email Address</string>
+    <string name="signup">SignUp</string>
+    <string name="already_started_login_now">Already started? <b><u>Login Now</u></b></string>
+    <string name="forgot_password_head">Forgot Password</string>
+    <string name="submit">Submit</string>
+    <string name="e_academic_bold"><b>E - Academic</b></string>
+    <string name="assistant_bold"><b>Assistant</b></string>
+    <string name="menu_name">MENU NAME</string>
+    <string name="error_message_connect_error">Can\'t connect !</string>
+    <string name="error_message_server_error">Internal error !</string>
+    <string name="linking_successfully">Linking Successfully</string>
+    <string name="error_message_went_wrong">Something went wrong</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="CollegeName">Majlis Arts and Science College</string>
+    <string name="college_details">     Majlis Arts and Science College, Puramannur is a
+                                    premier Higher Educational Institution run by Al Majlisu
+                                    Liddahwathil Islamiya. It is a Postgraduate College in
+                                    the Self financing stream, the first of its kind in
+                                     Malappuram District. The college is affiliated to the
+                                    University of Calicut, approved by the Government of
+                                    Kerala, and recognized under section 2(f) of the
+                                    UGC Act 1956. The college is located in a lush green
+                                    campus sprawling over 25 acres of land at Puramannur… </string>
+    <string name="Admission_Details">Admission Details  <b><u>Click here</u></b></string>
+    <string name="courses_details">Courses Details  <b><u>Click here</u></b></string>
+
+    <string name="FACULTY"><u>FACULTY</u>\nExperienced and dedicated teachers including retired professors guide the students to excel  in curricular and co-curricular activities.</string>
+
+    <string name="LABORATORIES"><u>LABORATORIES</u>\nThe laboratories are well equipped with all the necessary apparatus/equipment as per the rules and regulations of the university.</string>
+
+    <string name="LIBRARY"><u>LIBRARY</u>\nThe college library has a good collection of books on various subjects. A good number of journals and periodicals are also subscribed.</string>
+
+    <string name="MULTIMEDIA_STUDIO"><u>MULTIMEDIA STUDIO</u>\nFacilities like multimedia studio equipped with ultramodern cameras, audio recording labs,indoor and outdoor shooting units, advanced shooting floor, editing suits and colour grading desks are provided for multimedia students.</string>
+
+    <string name="CANTEEN"><u>CANTEEN</u>\nA canteen is maintained in the campus to provide lunch and light refreshments to the students and staff.</string>
+
+    <string name="HOSTEL"><u>MOULANA AZAD WOMEN’S HOSTEL</u>\nMoulana Azad Women’s Hostel, run by the college provides boarding and lodging to the girl students of the college. Girl students who do not live with their guardians should stay in the hostel.</string>
+
+    <string name="AUDIOVISUAL_HALL"><u>AUDIOVISUAL HALL</u>\nThe mini auditorium, the open auditorium and a well-equipped audiovisual room are used for conducting seminars, workshops and conferences.</string>
+
+
+    <string name="Admission">Admission</string>
+
+    <string name="admissionDetails">        50% of the seats will be on merit according to the
+                                            university rules and remaining 50% will be filled by the
+                                            management. 20% of the management seats are set
+                                            apart for the poor orphans and destitute.
+                                            Fee concession also be granded to them. Selection
+                                            of the merit seats done by the university of calicut
+                                            through centralized admission process(CAP). University
+                                            CAP registration is compulsory for all categories of
+                                            admission including management quota.
+                                            The application form and prospectus for the
+                                            management seats can be had from the college office
+                                            or can be downloaded from the downloads or from
+                                            the college website.</string>
+
+    <string name="collegeWebSite"><u>www.masc.majliscomplex.org</u></string>
+
+    <string name="clg_address">Majlis Nagar, puramannur (PO)\nValanchery,\nMalappuram Dist,\nKerala - 676551</string>
+
+    <string name="mailMajlisComplex"><u>info@majliscomplex.org</u></string>
+
+    <string name="mailMajlisCollege"><u>majliscollege@majliscomplex.org</u></string>
+    <string name="about_us">About US</string>
+    <string name="developed_by">Developed By</string>
+    <string name="student_techies">Student Techies</string>
+    <string name="department_oc_computer_science">Department oc Computer Science</string>
+    <string name="_2018_2021_batch">2018 - 2021 Batch</string>
+    <string name="majlis_arts_and_science_college_puramannur">Majlis Arts and Science College Puramannur</string>
+    <string name="related_links">Related Links</string>
+    <string name="university_of_calicut">University of Calicut</string>
+    <string name="university_directorate_of_admission">University Directorate of Admission</string>
+    <string name="university_preeksha_bhavan">University Preeksha Bhavan</string>
+    <string name="university_results">University Results</string>
+    <string name="college_website">College Website</string>
+    <string name="majlis_educational_complex">Majlis Educational Complex</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="course_details">Course Details</string>
+    <string name="course_management">Course Management</string>
+
+    <string name="Quit">Quit..!?</string>
+    <string name="QuitDialogue">Are you sure to want exit..?</string>
+    <string name="LogoutDialogue">Are you sure..?</string>
+    <string name="departments">Departments</string>
+    <string name="department_name">Department Name</string>
+    <string name="hod_name">HOD Name</string>
+    <string name="semester_management">Semester Management</string>
+    <string name="courses">Courses</string>
+    <string name="course_name">Course Name</string>
+    <string name="semester_count">Semester Count</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="semesters">Semesters</string>
+    <string name="search_course">Search Course</string>
+    <string name="department">Department</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="activated">Activated</string>
+    <string name="edit_department">Edit Department</string>
+    <string name="department_bracket">(Department)</string>
+    <string name="name_of_hod">Name of HOD</string>
+    <string name="select">(Select)</string>
+    <string name="edit_semester">Edit Semester</string>
+    <string name="edit_subject">Edit Subject</string>
+    <string name="title_activity_add_course">AddCourse</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create_course">Create Course</string>
+    <string name="create_department">Create Department</string>
+    <string name="create_semester">Create Semester</string>
+    <string name="create_subject">Create Subject</string>
+    <string name="attendance_management">Attendance Management</string>
+    <string name="student_name">Student Name</string>
+    <string name="course">Course</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="half_day">Half Day</string>
+    <string name="subjects">Subjects</string>
+    <string name="attendance">Attendance</string>
+    <string name="edit_attendance">Edit Attendance</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="create_admin">Create Admin</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create">Create</string>
+    <string name="teachers_management">Teachers Management</string>
+    <string name="gender">Gender</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="create_teacher">Create Teacher</string>
+    <string name="edit_teacher">Edit Teacher</string>
+    <string name="admin_management">Admin Management</string>
+    <string name="hod_management">HOD Management</string>
+    <string name="semester">Semester</string>
+    <string name="students_management">Students Management</string>
+    <string name="create_student">Create Student</string>
+    <string name="edit_student">Edit Student</string>
+    <string name="email_id">Email ID</string>
+    <string name="abc_123_com">abc@123.com</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="_05_02_1998">05/02/1998</string>
+    <string name="profile">Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="_1">1</string>
+    <string name="teachers">Teachers</string>
+    <string name="teacher">Teacher</string>
+    <string name="students">Students</string>
+    <string name="student">Student</string>
+    <string name="semester_name">Semester Name</string>
+    <string name="department_create">Department Create</string>
+    <string name="department_in_charge">Department in charge</string>
+    <string name="select_department_in_charge">(Select department in charge)</string>
+    <string name="loading">Loading</string>
+    <string name="department_in_charge_name">Department in charge name :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="sem_course_linking">Sem - Course Linking</string>
+    <string name="select_department_in_bracket">(select department)</string>
+    <string name="enter_sem_count">Enter sem count</string>
+    <string name="user_type">User Type</string>
+    <string name="admin">Admin</string>
+
+    <string name="location">{"type":"Point","coordinates":[75.125,25.2145],"_id":"606ed53d6067726031e6fa64"}</string>
+    <string name="edit_admin">Edit Admin</string>
+    <string name="students_list">Students List</string>
+    <string name="student_list">Student List</string>
+
+
+    <string name="dialog_delete">Deleted Successfully</string>
+    <string name="search_semester">Search semester</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="day_management">Day Management</string>
+    <string name="year">Year</string>
+    <string name="ok">Ok</string>
+    <string name="retry">Retry</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="nil">nil</string>
+    <string name="select_semester">(Select Semester)</string>
+    <string name="select_course">(Select Course)</string>
+    <string name="edit">Edit</string>
+    <string name="change_user_type">Do you want to change user type? <b><u>Click Here</u></b></string>
+    <string name="hod">HOD</string>
+    <string name="link_semester_subjects"><![CDATA[Link Semester & Subjects]]></string>
+    <string name="select_period">(Select Period)</string>
+    <string name="time_table_management">Time table Management</string>
+    <string name="take_attendance">Take Attendance</string>
+
+
+</resources>

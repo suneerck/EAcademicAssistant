@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_row_white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/tvSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="25dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hod_name"
+        app:layout_constraintTop_toBottomOf="@id/tvSubjectName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tvSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hod_name"
+        app:layout_constraintTop_toBottomOf="@id/tvCourse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="25dp"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_basket_black"
+        app:maxImageSize="18dp"
+        app:fabCustomSize="35dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginEnd="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

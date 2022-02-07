@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_list_row_white"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvSiNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvSiNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/gray_lite"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/green"
+            android:layout_marginEnd="15dp"/>
+
+        <RadioButton
+            android:id="@+id/rbAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/red"
+            />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

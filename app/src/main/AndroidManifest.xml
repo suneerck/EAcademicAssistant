@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.eAcademicAssistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".activities.attendance.ViewAttendanceInOthersActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.attendance.ViewAttendanceActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.takeAttendance.StudentsViewForTakeAttendanceActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.takeAttendance.SelectDetailsToTakeAttendance"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.timeTable.TimeTableSelectCourseActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".adapters.SemSubLinkRvMainAdapter"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.timeTableManagement.TimeTableSelectSubjectsActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.studentAttendanceAdd.StudentAttendanceAddHome"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.studentAttendanceAdd.StudentAttendanceAdd"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.DeletedUsersActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.dayManagement.DayManagementActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.dayManagement.calendar.create.CalendarCreateActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.dayManagement.calendar.edit.CalendarEditActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.dayManagement.calendar.list.CalendarListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.timeTableManagement.TimeTableManagementActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.timeTableManagement.TimeTableCalendarListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TeachersListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.teacherManagement.TeacherSubjectLinkActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.studentManagement.StudentSemCourseLinkingActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.StudentsListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.courses.SemSubjectLinkingActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.courses.CourseSemLinkActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.adminsManagement.EditAdminActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.hodsManagement.EditHodActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.semester.AddSemToCourseActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.hodsManagement.HodManagementListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.adminsManagement.AdminManagementActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.teacherManagement.TeachersManagementListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TimeTableManagementActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.departments.DepartmentCreateActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Attendance"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TakeAttendance"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Profile"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.studentManagement.ViewStudent"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.studentManagement.EditStudent"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.studentManagement.CreateStudentActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.studentManagement.StudentManagementListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.hodsManagement.CreateHodActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.teacherManagement.TeacherSubjectLinkListActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.teacherManagement.EditTeacherActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.teacherManagement.CreateTeacherActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.adminsManagement.CreateAdmin"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.attendancesManagement.ViewAttendance"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.attendancesManagement.EditAttendance"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AttendanceManagement"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.subjects.AddSubject"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.semester.CreateSemester"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.courses.CreateCourseActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.subjects.EditSubject"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.semester.EditSemester"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.departments.DepartmentEditActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.courses.EditCourse"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.subjects.Subjects"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.courses.Courses"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.semester.Semesters"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.departments.Departments"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.coursesManagement.CourseManagement"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".staticActivities.RelatedLinks"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".staticActivities.AboutUs"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".staticActivities.CollegeDetails"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstTimeLoginUser"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserMain"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="uiMode|smallestScreenSize|layoutDirection|screenSize|screenLayout|keyboardHidden|keyboard|density|orientation|locale"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
