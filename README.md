@@ -1,5 +1,5 @@
 # EAcademicAssistant
-Academic Project
+This is our academic Project
 
 documentation 
 
